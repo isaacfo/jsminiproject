@@ -48,13 +48,28 @@ How lame.
 
 // Optionally, you can use \n for linebreaks
 
-
-
-
 console.log(finaltext)
 
 
 
 
 
+// Start with a hard-coded value
+// Until you know your program works.
+// Then switch to prompting the user.
 
+// const theDay = prompt ("Day (0-6)?")
+
+const theDay =  0;
+let dayname = '';
+
+//You must use parentheses for your condition!!
+if (theDay == 0) { //And curly braces!
+dayName = 'Sunday';
+
+}
+
+//The body of an if statement
+//is surrounded by curly braces.
+//And does not require a semi-colon after the curly braces
+console.log(dayName);
