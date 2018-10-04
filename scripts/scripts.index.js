@@ -1,1 +1,0 @@
-//Yep. It's JavaScript
